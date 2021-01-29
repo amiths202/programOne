@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:padding="5dp"
+        android:textSize="35sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!" />
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+    <EditText
+        android:id="@+id/name"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"/>
+    <RadioGroup
+        android:id="@+id/Dept"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/CSE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CSE"/>
+        <RadioButton
+            android:id="@+id/ISE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISE"/>
+    </RadioGroup>
+    <TextView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mode of Transport"/>
+    <CheckBox
+        android:id="@+id/twoWheeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Two Wheeler"/>
+    <CheckBox
+        android:id="@+id/fourWheeler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Four Wheeler"/>
+    <CheckBox
+        android:id="@+id/bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bus"/>
+    <Button
+        android:id="@+id/submit"
+        android:padding="4dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+</LinearLayout>
